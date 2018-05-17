@@ -14,7 +14,9 @@
     "compilation"
   ],
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "babel . -d dist --ignore node_modules,tests,dist,coverage",
     "test:run": "tests/run.sh",
